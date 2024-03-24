@@ -4,24 +4,13 @@
     box-sizing:border-box;
     font-family: 'Roboto', sans-serif;
 }
-ul li{
-    display:inline;
-    justify-content: space-between;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 2vh;
-    font-size: 2vw;
-    margin-left: 5rem;
-}
-.nav{
+.navheader{
     background-color: #041656;
-    width: 100%;
-    height: 10%;
-    padding: 1rem;
 }
-.footer{
+.button{
+    color: #ffffff;
+    background-color: #041656;
+}
+footer{
     background-color: #585858;
-    height: 10rem;
 }
