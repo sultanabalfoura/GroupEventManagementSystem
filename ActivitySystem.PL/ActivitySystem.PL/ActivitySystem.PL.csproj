@@ -1,0 +1,113 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ActivitySystem.BLL\ActivitySystem.BLL.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="ResxEditor" Version="0.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="App_LocalResources\Resources.ar" />
+    <None Remove="Resources\" />
+    <None Remove="Views\Group\" />
+    <None Remove="Helper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Views\Group\" />
+    <Folder Include="Helper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Condition=" '$(EnableDefaultEmbeddedResourceItems)' == 'true' " Update="App_LocalResources\Resources %28copy%29.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Home.Groups.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Home.Groups.ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Home.Groups.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Home.Groups.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Shared._Layout.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Shared._Layout.ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Shared._Layout.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Shared._Layout.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Home.Index.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Home.Index.ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Home.Index.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Home.Index.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Shared._LayoutStudent.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Shared._LayoutStudent.ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Shared._LayoutStudent.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Shared._LayoutStudent.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Student.Myprofile.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Student.Myprofile.ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views.Student.Myprofile.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Views.Student.Myprofile.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App_LocalResources\Resources %28copy%29.Designer.cs">
+      <DependentUpon>Resources.es.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Home.Groups.ar.Designer.cs">
+      <DependentUpon>Views.Home.Groups.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Home.Groups.en.Designer.cs">
+      <DependentUpon>Views.Home.Groups.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Shared._Layout.ar.Designer.cs">
+      <DependentUpon>Views.Shared._Layout.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Shared._Layout.en.Designer.cs">
+      <DependentUpon>Views.Shared._Layout.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Home.Index.ar.Designer.cs">
+      <DependentUpon>Views.Home.Index.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Home.Index.en.Designer.cs">
+      <DependentUpon>Views.Home.Index.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Shared._LayoutStudent.ar.Designer.cs">
+      <DependentUpon>Views.Shared._LayoutStudent.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Shared._LayoutStudent.en.Designer.cs">
+      <DependentUpon>Views.Shared._LayoutStudent.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Student.Myprofile.ar.Designer.cs">
+      <DependentUpon>Views.Student.Myprofile.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views.Student.Myprofile.en.Designer.cs">
+      <DependentUpon>Views.Student.Myprofile.en.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

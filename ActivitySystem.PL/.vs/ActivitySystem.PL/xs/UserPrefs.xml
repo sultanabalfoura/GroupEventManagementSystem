@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{A0206D6A-7231-49C9-8E3B-F189A3AD70E9}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ActivitySystem.BLL/Repository/GenericRepository.cs">
+    <Files>
+      <File FileName="ActivitySystem.PL/Helper/ImageHelper.cs" Line="18" Column="10" />
+      <File FileName="ActivitySystem.PL/Views/Group/AddGroups.cshtml" Line="68" Column="1" />
+      <File FileName="ActivitySystem.PL/Controllers/GroupController.cs" Line="34" Column="19" />
+      <File FileName="ActivitySystem.DAL/Model/Groups.cs" Line="39" Column="55" />
+      <File FileName="ActivitySystem.PL/Models/MembersVM.cs" Line="1" Column="1" />
+      <File FileName="ActivitySystem.PL/Models/GroupsVM.cs" Line="24" Column="1" />
+      <File FileName="ActivitySystem.BLL/Repository/GroupRepository.cs" Line="48" Column="1" />
+      <File FileName="ActivitySystem.PL/Views/Student/MyGroups.cshtml" Line="23" Column="18" />
+      <File FileName="ActivitySystem.PL/Controllers/StudentController.cs" Line="115" Column="30" />
+      <File FileName="ActivitySystem.BLL/Interface/IGroupsRepository.cs" Line="13" Column="27" />
+      <File FileName="ActivitySystem.PL/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ActivitySystem.PL/Views/Home/Groups.cshtml" Line="1" Column="1" />
+      <File FileName="ActivitySystem.PL/Views/Shared/_Layout.cshtml" Line="52" Column="64" />
+      <File FileName="ActivitySystem.PL/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="ActivitySystem.BLL/Repository/GenericRepository.cs" Line="18" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ActivitySystem.PL" expanded="True">
+            <Node name="ActivitySystem.BLL" expanded="True" />
+            <Node name="ActivitySystem.DAL" expanded="True" />
+            <Node name="ActivitySystem.PL" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ActivitySystem.PL PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

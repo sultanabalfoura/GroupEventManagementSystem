@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/Assets/CSS/Addsponsor.css"> -->
+    <link rel="stylesheet" href="/Assets/CSS/index.css">
+    <title>Add Sponsor</title>
+</head>
+
+<body>
+    <header>
+        <div class="row m-4 justify-content-between">
+            <img id="imgLogo" src="/Assets/img/SQU.png" alt="SQU Web Site" class="col-2 ">
+            <button class="btn button fs-6 col-1 mt-3" style="height: 2.5rem;">Arabic</button>
+        </div>
+
+        <nav class="navheader navbar navbar-expand-lg w-100 p-3">
+
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse px-3 navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light px-5" aria-current="page"
+                                href="/Main/index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light px-5" aria-current="page"
+                                href="/Main/Events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light px-5" aria-current="page"
+                                href="/Main/Groups.html">Groups</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <ul class="nav-item dropdown">
+                            <li class="mt-3">
+                                <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Username
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item fs-6 text" href="/Students/Myprofile.html">My
+                                            Profile</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item fs-6 text " href="/Students/MyGroups.html">My
+                                            Groups</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item fs-6 text" href="/Students/AddGroups.html">Add
+                                            Groups</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item fs-6 text" href="/Students/Addsponsor.html">Add
+                                        Sponsor</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item fs-6 text" href="/Students/Myevents.html">My Events</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item fs-6 text" href="/Main/index.html">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container text-center mb-5">
+        <h5 class="fw-bold mt-4">Add Sponsor</h5>
+        <form class="">
+            <div class="">
+                <div class="row d-flex justify-content-evenly">
+                    <div class="px-3 col-2">
+                        <input type="text" class="form-control rounded-pill text-center" placeholder="Sponsor Name"
+                            aria-label="Sponsor Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="px-3 col-2">
+                        <input type="text" class="form-control rounded-pill text-center" placeholder="Country"
+                            aria-label="Country" id="exampleInputPassword1">
+                    </div>
+                    <div class="px-3 col-2">
+                        <input type="email" class="form-control rounded-pill text-center" placeholder="City"
+                            aria-label="City" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-evenly">
+                    <div class="col-2">
+                        <input type="Phone number" class="form-control rounded-pill text-center"
+                            placeholder="Phone Number" aria-label="Phone Number" id="exampleInputPassword1">
+                    </div>
+                    <div class="col-2">
+                        <input type="email" class="form-control rounded-pill text-center" placeholder="Email"
+                            aria-label="Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="col-2">
+                        <button type="button" class="btn rounded-pill" placeholder="Add" aria-label="Add"
+                            style="background-color: #041656; color: beige; padding: 9px 70px; font-size: 15px;">ADD</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+    </footer>
+    <script src="/Assets/JS/bootstrap.min.js"></script>
+    <script src="/Assets/JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

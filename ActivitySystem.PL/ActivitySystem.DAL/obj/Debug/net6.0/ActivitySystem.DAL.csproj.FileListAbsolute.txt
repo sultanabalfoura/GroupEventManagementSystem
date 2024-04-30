@@ -1,0 +1,12 @@
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/bin/Debug/net6.0/ActivitySystem.DAL.deps.json
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/bin/Debug/net6.0/ActivitySystem.DAL.dll
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/bin/Debug/net6.0/ActivitySystem.DAL.pdb
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/ActivitySystem.DAL.csproj.AssemblyReference.cache
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/ActivitySystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/ActivitySystem.DAL.AssemblyInfoInputs.cache
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/ActivitySystem.DAL.AssemblyInfo.cs
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/ActivitySystem.DAL.csproj.CoreCompileInputs.cache
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/ActivitySystem.DAL.dll
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/refint/ActivitySystem.DAL.dll
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/ActivitySystem.DAL.pdb
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.DAL/obj/Debug/net6.0/ref/ActivitySystem.DAL.dll

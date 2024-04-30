@@ -1,0 +1,15 @@
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ActivitySystem.BLL.csproj.AssemblyReference.cache
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ActivitySystem.BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ActivitySystem.BLL.AssemblyInfoInputs.cache
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ActivitySystem.BLL.AssemblyInfo.cs
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ActivitySystem.BLL.csproj.CoreCompileInputs.cache
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/bin/Debug/net6.0/ActivitySystem.BLL.deps.json
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/bin/Debug/net6.0/ActivitySystem.BLL.dll
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/bin/Debug/net6.0/ActivitySystem.BLL.pdb
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/bin/Debug/net6.0/ActivitySystem.DAL.dll
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/bin/Debug/net6.0/ActivitySystem.DAL.pdb
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ActivitySystem.BLL.csproj.CopyComplete
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ActivitySystem.BLL.dll
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/refint/ActivitySystem.BLL.dll
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ActivitySystem.BLL.pdb
+/Users/sultana/Desktop/SQU training /ActivitySystem.PL/ActivitySystem.BLL/obj/Debug/net6.0/ref/ActivitySystem.BLL.dll

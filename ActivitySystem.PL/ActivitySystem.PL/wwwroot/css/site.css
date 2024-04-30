@@ -1,0 +1,38 @@
+﻿/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navheader {
+    background-color: #041656;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #041656;
+}
+
+footer {
+    background-color: #585858;
+}

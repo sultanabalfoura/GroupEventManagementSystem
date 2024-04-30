@@ -1,0 +1,53 @@
+﻿@model List<Groups>
+
+@{
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+    //var StudentId = ViewBag.Attribute as int?;
+    var MembershipGroup = ViewBag.GroupName;
+}
+
+<div class="container p-4  ">
+    <div class="row p-5">
+        <h3 class="text-center mb-4"> My Groups </h3>
+        <div class="d-flex row mt-3 me-5 justify-content-center">
+
+        </div>
+        @if (MembershipGroup == null)
+        {
+            <p class="text-center mt-4 mb-5"> no group  </p>
+        }
+        else
+        {
+
+            @foreach (var group in Model)
+                {
+
+                    <div class="col">
+
+                        <div class="border border-dark rounded-4 border-2 p-3">
+                            <h4 class="text-center"> @group.GroupName </h4>
+                            <h5>Number of members : @(group.Members?.Count ?? 0)</h5>
+                            <h5>Position : @group.GroupPositions </h5>
+                            <div class=" d-flex justify-content-end align-items-center">
+                                <a href="#" class="btn button rounded-4 px-3 pt-1 pb-1 fs-5"> Leave </a>
+                            </div>
+                        </div>
+
+                    </div>
+                }
+        }
+
+    </div>
+</div>
+
+
+@*<div class="col">
+        <div class="border border-dark rounded-4 border-2 p-3">
+            <h4 class="text-center">Group Name </h4>
+            <h5>Number of members : </h5>
+            <h5>Position : </h5>
+            <div class=" d-flex justify-content-end align-items-center">
+                <a href="" class="btn button rounded-4 px-3 pt-1 pb-1 fs-5">Leave</a>
+            </div>
+        </div>
+    </div>*@
