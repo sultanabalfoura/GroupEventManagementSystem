@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ActivitySystem.PL
+build_property.RootNamespace = ActivitySystem.PL
+build_property.ProjectDir = /Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Events/AddEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnRzL0FkZEV2ZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Group/AddGroups.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JvdXAvQWRkR3JvdXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Home/Events.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Home/Groups.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Hcm91cHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Shared/_LayoutStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Student/MyGroups.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9NeUdyb3Vwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Student/Myprofile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9NeXByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sultana/Desktop/SQlProject/ActivitySystem.PL/ActivitySystem.PL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tgp1ojydpf

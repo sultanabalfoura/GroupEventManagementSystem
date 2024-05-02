@@ -1,0 +1,74 @@
+﻿@model GroupsVM
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="main">
+    <h3 class="text-center mt-5"> Add New Group </h3>
+    <div class="position-relative">
+
+        <form action="AddGroups" method="post" enctype="multipart/form-data" class="m-4">
+            <div class="row">
+                <div class="form-floating col-3 m-2">
+
+                </div>
+                <div class="form-floating col-3 m-3">
+                    <input asp-for="GroupName" class="form-control " id="floatingInput" placeholder="Group Name">
+                    <label for="floatingInput">Group name</label>
+                </div>
+                <div class="form-floating col-3 m-3">
+                    <input asp-for="GroupName_Ar" class="form-control " id="floatingInput" placeholder="Group Name">
+                    <label for="floatingInput">Group name_Ar</label>
+                </div>
+                <div class="form-floating col-3 m-2">
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="form-floating col-3 m-2">
+
+                </div>
+                <div class="form-floating col-3 m-3">
+                    <textarea asp-for="Discription" class="form-control" id="goalOfGroup" placeholder="Goal of Group"></textarea>
+                    <label for="goalOfGroup">Goal of Group</label>
+                </div>
+                <div class="form-floating col-3 m-3">
+                    <textarea asp-for="Discription_Ar" class="form-control" id="goalOfGroup" placeholder="Goal of Group"></textarea>
+                    <label for="goalOfGroup">Goal of Group _ Ar</label>
+                </div>
+                <div class="form-floating col-3 m-2">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-floating col-3 m-2">
+
+                </div>
+                <div class="form-check col-1 m-3">
+                    <input asp-for="Active" class="form-check-input" id="statusCheckbox">
+                    <label class="form-check-label" for="statusCheckbox">
+                        Active
+                    </label>
+                </div>
+                <div class="form-group col-6 m-3">
+                    <label class="form-label ">Upload Image:</label>
+                    <input type="file" asp-for="ImageFile" class="form-control-file" >
+                      
+                </div>
+                <div class="form-floating col-3 m-2">
+
+                </div>
+            </div>
+                
+                <div class="form-floating row mb-5">
+                    <div class="col-10 d-flex justify-content-end ms-3">
+                        <input type="submit" class=" me-5 button rounded-4 w-25 pt-1 pb-1 fs-6" id="floatingInput"
+                               placeholder="submit">
+                    </div>
+                </div>
+</form>
+    </div>
+</div>

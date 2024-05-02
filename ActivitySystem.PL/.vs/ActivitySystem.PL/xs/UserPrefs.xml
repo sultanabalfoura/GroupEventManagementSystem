@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{A0206D6A-7231-49C9-8E3B-F189A3AD70E9}|Default">
+  <MonoDevelop.Ide.ItemProperties.ActivitySystem.PL PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ActivitySystem.PL" expanded="True">
+            <Node name="ActivitySystem.BLL" expanded="True">
+              <Node name="Interface" expanded="True" />
+              <Node name="Repository" expanded="True" />
+            </Node>
+            <Node name="ActivitySystem.PL" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Events" expanded="True" />
+                <Node name="Group" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Student" expanded="True">
+                  <Node name="MyGroups.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

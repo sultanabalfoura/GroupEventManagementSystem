@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="title">
+		<value>الرؤية و الرسالة</value>
+    </data>
+
+	<data name="subtitle">
+		<value>الرؤية</value>
+    </data>
+	<data name="vision">
+		<value>
+			أن تحافظ الجامعة على دورها الريادي في مجالي التعليم العالي وخدمة المجتمع داخل السلطنة، وأن تتميّز دوليا بجودة بحوثها العلمية الابتكارية وخريجيها وشراكاتها الاستراتيجية
+        </value>
+    </data>
+
+	<data name="subtitle2">
+		<value>	الرسالة</value>
+    </data>
+	<data name="mission">
+		<value>
+			التميز في التعليم والتعلم، والبحث العلمي والابتكار، وخدمة المجتمع، من خلال تعزيز مبادئ التحليل العلمي والتفكير الإبداعي في بيئة أكاديمية محفزة، والمشاركة في إنتاج المعرفة وتطويرها ونشرها، والتفاعل مع المجتمعين المحلي والدولي
+        </value>
+    </data>
+</root>
+

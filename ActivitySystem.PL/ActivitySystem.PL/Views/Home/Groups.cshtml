@@ -1,0 +1,37 @@
+﻿@model List<Groups>
+
+
+@{
+    var image = ViewBag.imagebyte;
+    //var base64 = Convert.ToBase64String(Model);
+    //var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+}
+
+<div class="container p-4 justify-content-around">
+    @if (Model == null || Model.Count == 0)
+    {
+        <p class="text-center mt-4 mb-5"> NO GROUPS ARE AVILABLE </p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var group in Model)
+            {
+                <div class="col-6 mt-3">
+                    <div class="border border-dark rounded-4 border-2 p-3">
+                        <h4 class="text-center">@group.GroupName </h4>
+                        <div class="d-flex justify-content-evenly">
+                            <img src="data:image;base64,@System.Convert.ToBase64String(group.Image)" alt="" class="w-25 me-3">
+                            <p>
+                                @group.Discription
+                            </p>
+                        </div>
+                        <div class=" d-flex justify-content-end align-items-center">
+                            <a asp-controller="Home" asp-action="Login" class="btn button rounded-4 px-3 pt-1 pb-1 fs-5">@Localizer["joinButton"] </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
