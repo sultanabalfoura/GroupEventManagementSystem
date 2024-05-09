@@ -35,5 +35,5 @@ Appsettings.json 
     "Defaultconnection": "Data Source = localhost; Initial Catalog = ActivitySystemSQU; User ID = SA; Password = Sss12345;"
   }
 
-This connection will deferent in each devices 
+This connection will be deferent in each devices 
 To get connection string go to Microsoft Sql Server Manager and get the connection.
