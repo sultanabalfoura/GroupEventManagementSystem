@@ -32,7 +32,7 @@ Defaultconnection is the name of connection we got it from appsettings.json f
 
 Appsettings.json 
 "ConnectionStrings": {
-    "Defaultconnection": "Data Source = localhost; Initial Catalog = ActivitySystemSQU; User ID = SA; Password = Sss12345;"
+    "Defaultconnection": "Data Source = localhost; Initial Catalog = ActivitySystemSQU; User ID = SA; Password = *********;"
   }
 
 This connection will be deferent in each devices 
